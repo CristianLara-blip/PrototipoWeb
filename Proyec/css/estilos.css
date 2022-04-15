@@ -1,0 +1,87 @@
+body {
+    background-color: white;
+}
+
+.grid-layout{
+   height: 653px;
+   display: grid;
+   grid-template-areas: "imagen insti insti"
+                        "menu menu fecha"
+                        "relle relle bus"
+                        "relle relle noti"
+                        "relle relle eventos"
+                        "pie pie pie";
+  grid-template-rows: 10% 8% 10% 28% auto 8%;
+  grid-template-columns: 7% auto 23%;
+   background-color: white;
+   border: 0px solid black;
+
+}
+
+.caja{
+   border: 1px solid black;
+   background-color: lightgray;
+   margin: 5px;
+   text-align: center;
+   line-height: 50px;
+   
+}
+
+.c1{
+    grid-area: imagen;
+}
+
+.c2{
+    grid-area: insti;
+    background-color: rgb(255, 255, 255);
+}
+
+.c3{
+    grid-area: insti;
+    background-color: rgb(72, 98, 247);
+}
+
+.c4{
+    grid-area: menu;
+    background-color: bisque;
+}
+
+.c5{
+    grid-area: menu;
+    background-color: rgb(255, 199, 130);
+}
+
+.c6{
+    grid-area: fecha;
+    background-color: rgb(109, 109, 109);
+}
+
+.c7{
+    grid-area: relle;
+    background-color: rgb(108, 228, 162);
+}
+
+.c8{
+    grid-area: relle;
+    background-color: rgb(161, 255, 158);
+}
+
+.c9{
+    grid-area: bus;
+    background-color: rgb(252, 176, 255);
+}
+
+.c10{
+    grid-area: noti;
+    background-color: rgb(255, 145, 145);
+}
+
+.c11{
+    grid-area: eventos;
+    background-color: rgb(147, 251, 255);
+}
+
+.c12{
+    grid-area: pie;
+    background-color: rgb(230, 255, 161);
+}
